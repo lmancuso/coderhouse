@@ -1,0 +1,20 @@
+[
+	{
+		"title": "Sombrero de terciopelo",
+		"price": 7500,
+		"thumbnail": "https://pixabay.com/es/vectors/sombrero-sombrero-de-terciopelo-157581/",
+		"id": 1
+	},
+	{
+		"title": "Botas para lluvia",
+		"price": 5400,
+		"thumbnail": "https://pixabay.com/es/illustrations/botas-de-goma-lluvia-oto%c3%b1o-botas-639248/",
+		"id": 2
+	},
+	{
+		"title": "Gafas de sol",
+		"price": 3200.50,
+		"thumbnail": "https://pixabay.com/es/photos/atardecer-playa-gafas-de-sol-arena-1283872/",
+		"id": 3
+	}
+]
