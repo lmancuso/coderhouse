@@ -1,0 +1,24 @@
+{
+  "name": "challenge-api-restful",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasKoval/CH-Server-Express.git"
+  },
+  "author": "Lucas Koval",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasKoval/CH-Server-Express/issues"
+  },
+  "homepage": "https://github.com/LucasKoval/CH-Server-Express#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
