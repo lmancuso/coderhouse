@@ -3,7 +3,7 @@
     {{#if allProducts}}
     <ul>
         {{#each allProducts}}
-        <li>item: {{this.nombreProd}}</li>
+        <li>Producto Nro {{this.id}}, Titulo: {{this.title}}, Precio: {{this.price}}, Imagen: {{this.thumbnail}}</li>
         {{/each}}
     </ul>
     {{else}}
@@ -11,4 +11,4 @@
     {{/if}}
     <br>
 </div>
-<a href="cargaProductos">ir a carga de productos</a>
+<a href="/">Ir a carga de productos</a>

@@ -15,11 +15,7 @@ const handlebarsConfig = {
 app.engine('handlebars', exphbs.engine(handlebarsConfig))
 
 app.set('view engine', 'handlebars')
-app.set('views', './views')
-
-app.use(express.urlencoded({ extended: true }))
-
-//---------------------------------------
+app.set('views', './public/views')
 
 //----------* ROUTES REQUIRE *----------//
 const mainRouter = require('./routes/main')

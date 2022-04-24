@@ -10,10 +10,7 @@ router.get('/', async (req, res) => {
   try {
     const allProducts = await database.getAll()
     res.render('vistaProductos', {
-      id: allProducts.id,
-      title: allProducts.title,
-      price: allProducts.price,
-      thumbnail: allProducts.thumbnail
+      allProducts
     })
   } catch (error) {
     console.log(`ERROR: ${error}`)
@@ -56,9 +53,7 @@ router.post('/', async (req, res) => {
     }
 
     await database.add(newProduct)
-    // res.json(newProduct)
     res.redirect('/')
-
   } catch (error) {
     console.log(`ERROR: ${error}`)
   }
