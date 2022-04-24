@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/icon/nodejs.ico" />
+    <link href="/css/styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet" />
+    <title>API RESTful</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="column">
+        <h1>Challenge - API RESTful</h1>
+
+        <a href="/api/productos">
+          <button type="button" style="background-color: #ff6962">Get All Products</button>
+        </a>
+
+        <h2>Add new Product</h2>
+
+        <form action="/api/productos" method="POST">
+          <label>Name</label>
+          <input type="text" name="title" placeholder="Example: Notebook Asus" required />
+
+          <label>Price</label>
+          <input type="number" name="price" placeholder="Example: 1500" required />
+
+          <label>Image</label>
+          <input type="text" name="thumbnail" placeholder="Product image URL" />
+
+          <button type="submit">Add Product</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

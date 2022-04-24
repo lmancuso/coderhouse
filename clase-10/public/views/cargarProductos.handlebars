@@ -1,0 +1,20 @@
+<h1>Challenge - API RESTful</h1>
+
+<a href="/api/productos">
+    <button type="button" style="background-color: #ff6962">Get All Products</button>
+</a>
+
+<h2>Add new Product</h2>
+
+<form action="/api/productos" method="POST">
+    <label>Name</label>
+    <input type="text" name="title" placeholder="Example: Notebook Asus" required />
+
+    <label>Price</label>
+    <input type="number" name="price" placeholder="Example: 1500" required />
+
+    <label>Image</label>
+    <input type="text" name="thumbnail" placeholder="Product image URL" />
+
+    <button type="submit">Add Product</button>
+</form>
