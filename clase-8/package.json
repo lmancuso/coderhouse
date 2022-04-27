@@ -12,13 +12,15 @@
     "type": "git",
     "url": "git+https://github.com/LucasKoval/CH-Server-Express.git"
   },
-  "author": "Lucas Koval",
+  "author": "Luciano Mancuso",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LucasKoval/CH-Server-Express/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/LucasKoval/CH-Server-Express#readme",
+  "homepage": "",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.5",
+    "nodemon": "^2.0.15"
   }
 }

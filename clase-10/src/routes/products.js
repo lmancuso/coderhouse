@@ -54,6 +54,7 @@ router.post('/', async (req, res) => {
 
     await database.add(newProduct)
     res.redirect('/')
+
   } catch (error) {
     console.log(`ERROR: ${error}`)
   }
